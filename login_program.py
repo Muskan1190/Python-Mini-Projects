@@ -39,22 +39,6 @@ def login():
             print("Welcome back") 
         else:
             print("Incorrect username or password")
-'''         while true:
- user_post_choice= input("Would you like to post a post? (Select 1 for y and 2 for no:) ")
- if user_post_choice == 1:
- while True:
- user_input = input("Enter the post: ")
- with open("C:/Users/Telka LLC/Desktop/Jupytr/posts.txt","w") as f:
- f.write(user_input)
-                            '''
-  
-                        
-
-#if username matches with username then continue
-#if password matches with username then print success
-#if no then break
-#can put while loop to keep asking to reenter the password unless the user gives 3 wrong tries
-#then break the while loop and return 3 wrong tries
 
 
 
